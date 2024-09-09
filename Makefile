@@ -1,7 +1,7 @@
 CC = gcc
-CFLAGS = -Wall -Wextra -std=c99 -O2
+CFLAGS = -Wall -Wextra -std=c99 -O2 -g
 
-SRCS = main.c chunk.c debug.c memory.c value.c vm.c
+SRCS = main.c chunk.c compiler.c debug.c memory.c object.c scanner.c table.c value.c vm.c
 OBJS = $(SRCS:.c=.o)
 TARGET = main
 
