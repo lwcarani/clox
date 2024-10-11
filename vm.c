@@ -374,6 +374,7 @@ static InterpretResult run()
             push(value);
             break;
         }
+
         case OP_EQUAL:
         {
             Value b = pop();
